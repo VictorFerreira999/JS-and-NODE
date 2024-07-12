@@ -1,6 +1,5 @@
 // usando promise
 const http = require('http')
-const { callbackify } = require('util')
 
 const getTurma = letra => {
    const url = `http://files.cod3r.com.br/curso-js/turma${letra}.json`
